@@ -5,8 +5,15 @@ void main() {
     MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.amber,
-        ),
+            backgroundColor: Colors.amber,
+            title: Column(
+              children: [
+                CircleAvatar(
+                  backgroundImage: AssetImage("images/rick.jpg"),
+                ),
+                Text("I am rick")
+              ],
+            )),
       ),
     ),
   );

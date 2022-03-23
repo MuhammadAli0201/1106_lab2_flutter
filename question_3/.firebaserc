@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "lab4-flutter"
+  },
+  "targets": {
+    "lab4-flutter": {
+      "hosting": {
+        "q3": [
+          "q3-dfd"
+        ]
+      }
+    }
+  }
+}
